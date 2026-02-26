@@ -1,3 +1,4 @@
+// Displays tasks and handles edit/delete
 export default function TaskList({ tasks, deleteTask, updateTask }) {
   const editTask = (task) => {
     const newTitle = prompt("Edit task title:", task.title);
